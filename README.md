@@ -1,4 +1,4 @@
-# Internal PSI training on LCA, scenario-based LCA and prospective LCA
+# Training day on scenario-based LCA and prospective LCA: hands-on with `wurst` and `premise`
 
 This repository holds the teaching material for 
 the training day on `wurst` and `premise` held on
@@ -41,6 +41,7 @@ which is a graphical user interface for `brightway`.
 
 ## Contact
 
+In case of questions or issues with the instructions below, please contact:
 [Romain Sacchi](mailto:romain.sacchi@psi.ch)
 
 ## License
