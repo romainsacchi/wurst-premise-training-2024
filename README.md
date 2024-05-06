@@ -50,10 +50,9 @@ Unless otherwise specified, all material in this repository is licensed [Creativ
 
 ## Requirements
 
-No special requirements are needed at the beginning of the course.
-It is however best to install the required software before the course.
+It is  best to install the following listed software before the course.
 
-We ask the participants to download the following Python library managers
+We ask the participants to download and install Anaconda and Git 
 before the course:
 
 - Anaconda: https://www.anaconda.com/products/distribution
@@ -73,7 +72,7 @@ Clone this repository onto your computer by running the following command
 in the terminal:
 
 ```bash
-  git clone 
+  git clone https://github.com/romainsacchi/wurst-premise-training-2024.git
 ```
 
 ### Morning session
