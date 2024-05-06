@@ -1,0 +1,15 @@
+# in your terminal, run conda: conda env create -f brightway_environment.yaml
+# or mamba (faster): mamba env create -f brightway_environment.yaml
+
+name: bw
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - brightway2
+  - bw2io <= 0.8.10
+  - activity-browser
+  - jupyterlab
+  - matplotlib
+  - seaborn

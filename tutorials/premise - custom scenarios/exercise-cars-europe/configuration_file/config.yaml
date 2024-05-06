@@ -1,0 +1,82 @@
+# Configuration file for premise - custom scenarios for `premise - intro`
+
+---
+
+production pathways:
+  ICEV:
+    production volume:
+      variable: Share|ICEV
+    ecoinvent alias:
+      name: market for transport, passenger car with internal combustion engine
+      reference product: transport, passenger car with internal combustion engine
+
+  BEV:
+    production volume:
+      variable: Share|BEV
+    ecoinvent alias:
+      name: market for transport, passenger car, electric
+      reference product: transport, passenger car, electric
+
+  EURO3:
+    production volume:
+      variable: Share|EURO-3
+    ecoinvent alias:
+      name: market for transport, passenger car, EURO 3
+      reference product: transport, passenger car, EURO 3
+
+  EURO4:
+    production volume:
+      variable: Share|EURO-4
+    ecoinvent alias:
+      name: market for transport, passenger car, EURO 4
+      reference product: transport, passenger car, EURO 4
+
+  EURO5:
+    production volume:
+      variable: Share|EURO-5
+    ecoinvent alias:
+      name: market for transport, passenger car, EURO 5
+      reference product: transport, passenger car, EURO 5
+
+  EURO6:
+    production volume:
+      variable: Share|EURO-6
+    ecoinvent alias:
+      name: transport, passenger car, large size, petrol, EURO 6
+      reference product: transport, passenger car, large size, petrol, EURO 6
+      exists in original database: False
+    efficiency:
+      - variable: Efficiency|EURO-6
+        includes:
+          technosphere:
+            - market for petrol, low-sulfur
+          biosphere:
+            - Carbon dioxide, fossil
+
+
+
+markets:
+  - name: transport, passenger car with internal combustion engine (new)
+    reference product: transport, passenger car with internal combustion engine
+    unit: kilometer
+    includes:
+      - EURO3
+      - EURO4
+      - EURO5
+      - EURO6
+
+    replaces:
+      - name: transport, passenger car with internal combustion engine
+        product: transport, passenger car with internal combustion engine
+        operator: equals
+
+  - name: transport, passenger car (new)
+    reference product: transport, passenger car
+    unit: kilometer
+    includes:
+      - ICEV
+      - BEV
+
+    replaces:
+      - name: transport, passenger car
+        product: transport, passenger car

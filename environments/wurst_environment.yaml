@@ -1,0 +1,18 @@
+# in your terminal, run conda: conda env create -f wurst_environment.yaml
+# or mamba (faster): mamba env create -f wurst_environment.yaml
+
+name: wurst
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - brightway2
+  - bw2io <= 0.8.10
+  - wurst
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - xarray
+  - pandas
+  - prettytable

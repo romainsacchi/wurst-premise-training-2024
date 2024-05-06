@@ -1,0 +1,15 @@
+﻿model,pathway,scenario,region,variables,unit,2005,2010,2015,2020,2025,2030,2035,2040,2045,2050
+image,SSP2-Base,Business As Usual,RER,Share|ICEV,share,1,1,0.9999,0.99977,0.95,0.9,0.8,0.7,0.6,0.5
+image,SSP2-Base,Business As Usual,RER,Share|BEV,share,0,0,1E-04,0.00023,0.05,0.1,0.2,0.3,0.4,0.5
+image,SSP2-Base,Business As Usual,RER,Share|EURO-3,share,0.70,0.57,0.42,0.37,0.22,0.00,0.00,0.00,0.00,0.00
+image,SSP2-Base,Business As Usual,RER,Share|EURO-4,share,0.30,0.38,0.33,0.33,0.33,0.33,0.25,0.15,0.00,0.00
+image,SSP2-Base,Business As Usual,RER,Share|EURO-5,share,0.00,0.05,0.25,0.25,0.30,0.34,0.35,0.35,0.40,0.00
+image,SSP2-Base,Business As Usual,RER,Share|EURO-6,share,0.00,0.00,0.00,0.05,0.15,0.33,0.40,0.50,0.60,1.00
+image,SSP2-Base,Business As Usual,RER,Efficiency|EURO-6,percentage,0.25,0.25,0.25,0.25,0.26,0.28,0.28,0.28,0.28,0.28
+image,SSP2-RCP26,Climate ambitious,RER,Share|ICEV,share,1,1,0.9999,0.99977,0.9,0.8,0.7,0.6,0.5,0.4
+image,SSP2-RCP26,Climate ambitious,RER,Share|BEV,share,0,0,1E-04,0.00023,0.1,0.2,0.3,0.4,0.5,0.6
+image,SSP2-RCP26,Climate ambitious,RER,Share|EURO-3,share,0.70,0.57,0.42,0.37,0.22,0.00,0.00,0.00,0.00,0.00
+image,SSP2-RCP26,Climate ambitious,RER,Share|EURO-4,share,0.30,0.38,0.33,0.33,0.33,0.33,0.25,0.15,0.00,0.00
+image,SSP2-RCP26,Climate ambitious,RER,Share|EURO-5,share,0.00,0.05,0.25,0.25,0.30,0.34,0.35,0.35,0.40,0.00
+image,SSP2-RCP26,Climate ambitious,RER,Share|EURO-6,share,0.00,0.00,0.00,0.05,0.15,0.33,0.40,0.50,0.60,1.00
+image,SSP2-RCP26,Climate ambitious,RER,Efficiency|EURO-6,percentage,0.25,0.25,0.25,0.25,0.26,0.28,0.28,0.28,0.28,0.28
