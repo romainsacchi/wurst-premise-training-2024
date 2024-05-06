@@ -46,7 +46,8 @@ In case of questions or issues with the instructions below, please contact:
 
 ## License
 
-Unless otherwise specified, all material in this repository is licensed [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
+Unless otherwise specified, all material in this repository is licensed 
+under the BSD 3-clause license. See the LICENSE file for more information.
 
 ## Requirements
 
