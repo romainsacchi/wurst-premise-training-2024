@@ -58,9 +58,19 @@ before the course:
 - Anaconda: https://www.anaconda.com/products/distribution
 - Git: https://git-scm.com/downloads
 
+Also, please download a copy of the ecoinvent database:
+- go to https://ecoinvent.org/
+- Login to ecoinvent v.3
+- Files > Version 3.9.1 > ecoinvent 3.9.1_cutoff_ecoSpold02.7z
+
+Unzip the file and place the folder in a location of your choice.
+You may download a different version of the database (3.7, 3.8), according to your
+current license (although choose the "cut-off by classification" system model).
+
 ## Instructions
 
-Install the `libmamba` solver in conda, for faster environment resolution.
+Once you have installed Anacoda on your computer, you may consider installing 
+the `libmamba` solver in conda, for faster environment resolution.
 Open the terminal (Anaconda terminal in Windows) and run the following commands:
 
 ```bash
