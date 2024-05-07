@@ -51,10 +51,8 @@ under the BSD 3-clause license. See the LICENSE file for more information.
 
 ## Requirements
 
-It is  best to install the following listed software before the course.
-
 We ask the participants to download and install Anaconda (or the 
-Python environment manager of your choice) and Git 
+Python environments manager of your choice) and Git 
 before the course:
 
 - Anaconda: https://www.anaconda.com/products/distribution
