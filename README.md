@@ -2,7 +2,7 @@
 
 This repository holds the teaching material for 
 the training day on `wurst` and `premise` held on
-May the 16th offered by the Sustainable Systems 
+May the 16th, offered by the Sustainable Systems 
 Research Group (SSRG) at the University of Toronto.
 
 ## Course objectives
@@ -53,7 +53,8 @@ under the BSD 3-clause license. See the LICENSE file for more information.
 
 It is  best to install the following listed software before the course.
 
-We ask the participants to download and install Anaconda and Git 
+We ask the participants to download and install Anaconda (or the 
+Python environment manager of your choice) and Git 
 before the course:
 
 - Anaconda: https://www.anaconda.com/products/distribution
