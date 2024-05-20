@@ -1,9 +1,9 @@
 # Training day on scenario-based LCA and prospective LCA: hands-on with `wurst` and `premise`
 
 This repository holds the teaching material for 
-the training day on `wurst` and `premise` held on
-May the 16th, offered by the Sustainable Systems 
-Research Group (SSRG) at the University of Toronto.
+the training day on `wurst` and `premise` dispensed at 
+the Sustainable Systems Research Group (SSRG) at the University 
+of Toronto, as well as at the Spring School in Quebec City.
 
 ## Course objectives
 
