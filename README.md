@@ -95,7 +95,7 @@ Using the terminal, navigate to the `environments` folder and run the following
 command:
 
 ```bash
-  mamba env create -f wurst_environment.yaml
+  conda env create -f wurst_environment.yaml
 ```
 
 This will create a conda environment called `wurst` with all the required dependencies.
@@ -108,5 +108,5 @@ Using the terminal, navigate to the `environments` folder
 and run the following command:
 
 ```bash
-  mamba env create -f premise_environment.yaml
+  conda env create -f premise_environment.yaml
 ```
